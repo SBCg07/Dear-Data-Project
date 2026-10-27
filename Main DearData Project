@@ -1,0 +1,24 @@
+int StarSize, StarColour[], Intensity;
+
+void setup()
+{
+  size(1200, 800);
+  background(0);
+  
+  StarColour = new int[5];
+  StarColour[0] = 44;
+  StarColour[1] = 64;
+  StarColour[2] = 54; 
+  StarColour[3] = 100;
+  StarColour[4] = 89; 
+}
+
+void draw()
+{
+  fill(StarColour[1], StarColour[2], StarColour[3]);
+  for (int i=0; i<9; i=i+1)
+  {
+  circle(random(40) + i*100, 50*i, 50*i);
+}
+
+}
