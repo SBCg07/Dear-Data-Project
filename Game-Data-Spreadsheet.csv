@@ -1,0 +1,21 @@
+Game Number,Toxicity Level,Win / Loss,Ranked / Unranked,No. of Pre-mades ,Toxicity on which team,My Performance
+1,Low-None,Loss,Ranked ,0,Neither,Mediocre
+2,Low-None,Loss,Ranked ,0,Neither,Mediocre
+3,Consistent,Loss,Casual,1,Both,Good
+4,Consistent,Loss,Casual,1,Ally,Terrible
+5,Low-None,Win,Casual,1,Neither,Good
+6,Consistent,Loss,Casual,1,Ally,Great
+7,Low-None,Win,Casual,5,Neither,Great
+8,Low-None,Win,Casual,5,Neither,Good
+9,Apparent,Loss,Casual,5,Ally,Great
+10,Apparent,Loss,Casual,5,Enemy,Good
+11,Apparent,Loss,Casual,1,Enemy,Great
+12,Low-None,Win,Casual,3,Neither,Good
+13,Low-None,Win,Casual,3,Neither,Good
+14,High,Loss,Casual,1,Ally,Poor
+15,Low-None,Loss,Casual,3,Ally,Terrible
+16,Consistent,Loss,Casual,1,Both,Poor
+17,Apparent,Win,Casual,3,Ally,Good
+18,Low-None,Win,Casual,1,Neither,Great
+19,Low-None,Win,Casual,5,Neither,Great
+20,High,Loss,Casual,5,Ally,Terrible
