@@ -1,30 +1,20 @@
 class gameData {
-  int premadeNumber, toxicityScale, toxicityPresence, personalPerformance ;
+  String toxicityScale;
   boolean gameWon ;
-  String[] rows ;
-  String[][] columns ;
+  int premadeNumber;
+  int toxicityPresence;
+  int personalPerformance;
 
 
-  // Methods
-
-  void dataset() {
-    rows = loadStrings("gameData.csv");
-    println(rows.length);
-    println(rows[1]);
-
-    columns = new String [rows.length][];
-
-    for ( int i=0; i<rows.length; i++) {
-      
-      String[] dataItems = split(rows[i], ",");
-      
-      columns[i] = new String[dataItems.length]; 
-      
-      for (int d=0; d< dataItems.length; d++) {
-         columns[i][d] = dataItems[d] ; 
-         
-         println(i, d, dataItems[d]);
-      }
-    }
+  gameData (String tableToxicityScale, String tableGameWon, String tablePremadeNumber, String tablePersonalPerfomance) {
+    
+    premadeNumber = Integer.parseInt(tablePremadeNumber);
+    
+    tableToxicityScale = toxicityScale;
+    gameWon = tableGameWon.equals("Win");
+    tablePremadeNumber = premadeNumber ; 
+    tableToxicityPresence = toxicityPresence ; 
+    
+    
   }
 }
